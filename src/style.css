@@ -12,15 +12,7 @@
   margin-bottom: 0;
 }
 
-.form-field {
+.form-field:not(:last-child) {
   display: block;
-  margin: 10px 0;
-}
-
-.form-field:nth-child(2) {
-  margin-top: 0;
-}
-
-.form-field:last-child {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
